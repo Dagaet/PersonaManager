@@ -9,7 +9,7 @@ public class Main {
         System.out.println("La edad de la persona es: " + persona.getYearsOld());
         System.out.println("El DNI es: " + persona.getDNI());
 
-        //Ponemos nuevo nombre, DNI y apellido con los setter
+        //Ponemos nuevo nombre, DNI y apellido con los setter.
         persona.setNombre("Jose");
         persona.setApellidos("Correa");
         System.out.println("El nombre se ha actualizado, el nuevo nombre es: " + persona.getNombre());
